@@ -28,3 +28,4 @@ ano = int(data[6:])
 
 print('Você nasceu em %d de %s de %d' % (dia, mes, ano))
 print('Você nasceu em {} de {} de {}'.format(dia, mes, ano))
+print(f'Você nasceu em {dia} de {mes} de {ano}')

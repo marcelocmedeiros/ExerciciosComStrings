@@ -22,13 +22,15 @@ palavra = str(input('Digite a palavra: ')).strip().upper()
 #usei split para fatiar se for uma frase
 frase = palavra.split()
 
-#usei join com espaço vazio para juntar todas as letres se for uma frase
+# usei join com espaço vazio para juntar todas as letres se for uma frase
 juntar = ''.join(frase)
-
-# variável "inverso" vai receber o a variável "palavra" invertida pelo FOR
+# depois da string junta inverso recebeu juntar[::-1]
+inverso = juntar[::-1]
+# com For só tira comentário e comentar o inverso acima
+'''# variável "inverso" vai receber o a variável "palavra" invertida pelo FOR
 inverso = ''
 for letra in range(len(juntar)-1, -1, -1):
-    inverso += juntar[letra]
+    inverso += juntar[letra]'''
 
 # usei if para comparar a variável antes e invertida
 if juntar == inverso:

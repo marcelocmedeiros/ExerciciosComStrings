@@ -23,8 +23,9 @@ s = dig.count("a")+dig.count("e")+dig.count("i")+dig.count("o")+dig.count("u")
 print('Há %i espaços na frase.'%(dig.count(" ")))
 print('Há %i vogais na frase.'%(s))
 print()
-
 print('Há {} espaços na frase.\nHá {} vogais na frase.'.format(dig.count(" "), s))
+print()
+print(f'Há {dig.count(" ")} espaços na frase.\nHá {s} vogais na frase.')
 
 # usando for
 '''

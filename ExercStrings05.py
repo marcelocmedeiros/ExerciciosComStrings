@@ -19,17 +19,19 @@ print('{:*^30}'.format('  Nome na vertical invertida  '))
 print('='*30)
 print()
 
-'''
+
 # usando for aninhado a outro for
 
 nome = input('Digite seu nome: ')
 
+# len(nome) a segura que podera pegar qualquer nome, pois ele vai colocar o total de letras
 for i in range(len(nome), 0, -1):
     for y in range(0, i):
-        print(nome[y] , end="")
+        # end='' para juntar as letras e não sair na vertical a impresão
+        print(nome[y], end="")
     print('')
-'''
-# resolvendo com while
+
+"""# resolvendo com while
 
 nome = input("digite seu nome: ")
 print()
@@ -37,4 +39,4 @@ i = len(nome)
 # com while vai imprimir o nome completo e retirando -1 letra em cada loop até chegar índice 0
 while i >= 0:
     print(nome[0:i])
-    i = i - 1
+    i = i - 1"""

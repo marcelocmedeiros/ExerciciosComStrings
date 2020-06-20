@@ -34,8 +34,9 @@ for i in range(1, 7):
         print('Você acertou!')
         break
     else:
-        print('Você errou!')
-    if i == 6:
-        print('Você perdeu!')
-        break
+        if i == 6:
+            print('Você perdeu!')
+        else:
+            print('Você errou!')
+   
     

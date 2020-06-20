@@ -28,7 +28,9 @@ while (numero < 0) or (numero > 99):
     numero = int(input('Informe um número entre 0 e 99: '))
 
 else:
+    # divisão inteira 
     dezena = numero / 10
+    # resto da divisão
     unidade = numero % 10
  
     if (numero >= 20):

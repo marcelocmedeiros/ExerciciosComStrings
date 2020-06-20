@@ -19,7 +19,7 @@ print('{:*^30}'.format('  Nome em escada '))
 print('='*30)
 print()
 
-nome = input('Digite seu nome: ').upper()
+'''nome = input('Digite seu nome: ').upper()
 
 print('')
 # variável somatoria
@@ -27,12 +27,10 @@ s = ""
 # for com somatória "s" somando cada loop de letra e imprime "s"
 for letra in nome:
 		s+=letra
-		print(s)
+		print(s)'''
 
-'''
 nome = input("digite seu nome ")
 i = 1
 while i < len(nome) + 1:
     print(nome[0:i])
     i = i + 1
-'''

@@ -38,7 +38,7 @@ tamanhoPalavra = len(palavraEscolhida)
 # cria os trasinho do n° de letras
 palavraAdivinhada = ['_'] * tamanhoPalavra
 
-# contadore
+# contador
 erros = 0
 
 # join para juntar as letras adivinhadas
